@@ -1,0 +1,63 @@
+
+nav{
+    box-sizing: border-box;
+    width: full;
+    height: 100px;
+    background: black;
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+  }
+
+li {
+    display:inline-block;
+    width: 200;
+    height:70;
+    float: left;
+    color:grey;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    border-right: 10px;
+    position: relative; 
+}
+
+ figcaption{
+    display: inline-block;
+    height: 330px;
+    padding: 20px 20px 0px 20px;
+    width: 440px;
+    overflow: scroll;
+ }
+
+button{
+    background:grey;
+    color:black;
+    display:inline-block;
+    margin:50px;
+    float: right;
+    position: relative;
+    right: 380px;
+    bottom:150px;
+    transition:0.35 
+
+
+}
+ button:hover{
+    background-color: grey;
+}
+
+
+ footer{
+  background:black;
+  height: 100px;
+  width: full;
+
+ }
+
